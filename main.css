@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #444;
+}
+
+.logo span {
+    color: #e74c3c;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.search-element {
+    display: inline-block;
+}
+
+#movie-search-box {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.search-list {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 318px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.search-list-item {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-item-thumbnail img {
+    width: 50px;
+    height: 75px;
+}
+
+.search-item-info {
+    margin-left: 10px;
+}
+
+/* Add spacing between search bar and "Go to My Favourite Movies" button */
+.container {
+    margin-top: 20px;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.result-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.movie-poster img {
+    width: 100%;
+}
+
+.movie-info {
+    text-align: left;
+}
+
+.movie-title {
+    margin-bottom: 20px;
+}
+
+.movie-misc-info {
+    list-style: none;
+    padding: 0;
+}
+
+.movie-misc-info li {
+    margin-bottom: 10px;
+}
+
+.favorite-movie-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.favorite-movie-thumbnail img {
+    width: 100px;
+}
+
+.favorite-movie-info {
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-danger:hover {
+    background: #c82333;
+}
